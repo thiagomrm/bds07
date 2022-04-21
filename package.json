@@ -11,7 +11,10 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
+<<<<<<< HEAD
     "axios": "^0.26.1",
+=======
+>>>>>>> a8ca96d9a8db8b618f420c141da13c7c4894b2e7
     "bootstrap": "^5.0.2",
     "node-sass": "4.14.1",
     "react": "^17.0.2",

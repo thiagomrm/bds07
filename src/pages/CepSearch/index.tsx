@@ -1,6 +1,7 @@
 import './styles.css';
 
 import ResultCard from 'components/ResultCard';
+<<<<<<< HEAD
 import React from 'react';
 import { useState } from 'react';
 import axios from 'axios';
@@ -41,10 +42,15 @@ const CepSearch = () => {
       });
   };
 
+=======
+
+const CepSearch = () => {
+>>>>>>> a8ca96d9a8db8b618f420c141da13c7c4894b2e7
   return (
     <div className="cep-search-container">
       <h1 className="text-primary">Busca CEP</h1>
       <div className="container search-container">
+<<<<<<< HEAD
         <form onSubmit={handleSubmit}>
           <div className="form-container">
             <input
@@ -54,6 +60,15 @@ const CepSearch = () => {
               placeholder="CEP (somente números)"
               value={formData.cep}
               onChange={handleChange}
+=======
+        <form>
+          <div className="form-container">
+            <input
+              type="text"
+              className="search-input"
+              placeholder="CEP (somente números)"
+              onChange={() => {}}
+>>>>>>> a8ca96d9a8db8b618f420c141da13c7c4894b2e7
             />
             <button type="submit" className="btn btn-primary search-button">
               Buscar
@@ -61,12 +76,18 @@ const CepSearch = () => {
           </div>
         </form>
 
+<<<<<<< HEAD
         {address &&
           <>
             <ResultCard title="Logradouro" description={address.logradouro} />
             <ResultCard title="Localidade" description={address.localidade} />
           </>
         }
+=======
+        <ResultCard title="Logradouro" description="Lalala" />
+        <ResultCard title="Número" description="234" />
+
+>>>>>>> a8ca96d9a8db8b618f420c141da13c7c4894b2e7
       </div>
     </div>
   );
